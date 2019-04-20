@@ -11,6 +11,7 @@
         android:padding="8dp">
 
         <ImageView
+            android:id="@+id/appIconImg"
             android:layout_width="84dp"
             android:layout_height="84dp"
             android:src="@mipmap/ic_launcher" />
@@ -38,37 +39,23 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/appTitleNum"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="1"
-                            android:textColor="#000000"
-                            android:textSize="16sp" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="."
-                            android:textColor="#000000"
-                            android:textSize="16sp" />
-
-                        <TextView
                             android:id="@+id/appTitleTxt"
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="2sp"
-                            android:text="앱 제목"
+                            android:text="1. 앱제목"
                             android:textColor="#000000"
                             android:textSize="16sp" />
 
                     </LinearLayout>
 
                     <TextView
+                        android:id="@+id/appCompanyTxt"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="업체명" />
 
                     <ImageView
+                        android:id="@+id/starImg"
                         android:layout_width="20dp"
                         android:layout_height="20dp"
                         android:layout_marginTop="2dp"
@@ -104,6 +91,7 @@
                     android:src="@mipmap/ic_launcher"/>
 
                 <TextView
+                    android:id="@+id/appInstallTxt"
                     android:textSize="14sp"
                     android:textColor="#C4D52A"
                     android:layout_width="wrap_content"
