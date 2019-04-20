@@ -54,12 +54,43 @@
                         android:layout_height="wrap_content"
                         android:text="업체명" />
 
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp">
+
                     <ImageView
-                        android:id="@+id/starImg"
+                        android:id="@+id/starImg1"
                         android:layout_width="20dp"
                         android:layout_height="20dp"
-                        android:layout_marginTop="2dp"
-                        android:src="@mipmap/ic_launcher" />
+                        android:layout_marginLeft="-2dp"
+                        android:src="@drawable/ic_star_black_24dp" />
+                    <ImageView
+                        android:id="@+id/starImg2"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-2dp"
+                        android:src="@drawable/ic_star_black_24dp" />
+                    <ImageView
+                        android:id="@+id/starImg3"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-2dp"
+                        android:src="@drawable/ic_star_black_24dp" />
+                    <ImageView
+                        android:id="@+id/starImg4"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-2dp"
+                        android:src="@drawable/ic_star_black_24dp" />
+                    <ImageView
+                        android:id="@+id/starImg5"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="-2dp"
+                        android:src="@drawable/ic_star_black_24dp" />
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -79,24 +110,27 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_marginTop="8dp"
                 android:layout_width="wrap_content"
                 android:layout_height="16dp"
                 android:layout_gravity="end|bottom"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="16dp"
-                    android:layout_height="16dp"
-                    android:src="@mipmap/ic_launcher"/>
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/ic_launcher" />
 
                 <TextView
                     android:id="@+id/appInstallTxt"
-                    android:textSize="14sp"
-                    android:textColor="#C4D52A"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="설치된 항목" />
+                    android:gravity="center_vertical"
+                    android:text="설치된 항목"
+                    android:textColor="#AFC01F"
+                    android:textSize="14sp" />
 
             </LinearLayout>
         </LinearLayout>
